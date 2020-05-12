@@ -1,0 +1,30 @@
+The user submits a job associated with deadline, cost, and execution time.
+The user queries the cluster to establish the current cost per unit time for submitting new jobs.
+The user monitors the status of submitted jobs.
+The user cancels the jobs submitted by him.
+The user checks his credit balance.
+The user checks his usage history.
+The user checks the status of each node of the cluster.
+The user checks the usage pattern history of the cluster.
+The user checks the status of all submitted jobs.
+The user checks the load on each node of the cluster.
+The user alters the cost structure of the cluster.
+The user alters the scheduling policy of the cluster.
+The user takes a photo of a new student.
+The development process will follow the Rational Unified Process (RUP) approach.
+The SDMS will be developed under a waterfall process model.
+The objective of the project is to develop a meeting scheduler product through an organized routine which allows us to concentrate on core elements at different phases more easily and efficiently.
+The web tier deals with the presentation logic and the rendering of the page
+The EIS tier is responsible for storing user profiles, and ride advertisements.
+Runtime Pattern is applied.
+Development is done on an extra application server
+Application is deployed into two application servers working in a cluster. (4 in the future)
+Application servers are IBM servers running Jboss Application Server
+The database server is IBM server running MySQL server.
+All application servers and Database server have redundancy using mirroring RAID mode.
+Workstations run Linux and use the Eclipse platform for development.
+Administration Staff can create a monthly accounting report
+Each role is managed by at most one other role.
+An administrator shall be able to register a satellite with the system.
+The PHP editor will have a wizard that will support the following search options Classes Functions Constants Variables.
+This window will display the users Direct Message (or DM) inbox.

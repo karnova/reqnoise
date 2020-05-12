@@ -1,0 +1,28 @@
+Items are bought from various vendors located in or outside United States.
+The buyer get in contact with various vendors and create catalog (list of items) from where the Store Managers of every store buy items for their store.
+The Online system will give the advantage of keeping track of all purchase orders at any given point of time thus eliminating paper work and in turn error caused by it
+All The above users have similar rights.
+They have total access the BPMS system.
+They have the rights to generate new users in the system.
+They will have the total access to all the transaction reports in the accounting system being a people from the management team of the organization.
+District manager may have more than 1 store under him.
+He logs in he sees only stores under him i.e. a list of his stores and toggle between them.
+He should have managerial type access only for those stores that are under him.
+The Store Manager and Assistant Store Manager have limited access in the BPMS.
+They will be able to see the details restricted to their Store only.
+Cost of items bought will not be disclosed
+The comparison with other vendor items will not shown
+Enter the details of Sales for his store registers
+The usage of the system will be restricted only to add cash registers and changing his password
+The Stores will have limited Internet access that is the usage of BPMS system online rest of the Internet will not be accessible.
+For each subphase, there will be two team leaders in the team. The rests are common members. In order to give leadership experience to every member, the team leaders will change in different subphases
+The team leaders are responsible for arranging and coordinating the tasks of each team members, integrating every members work and submitting the deliverables. Team members should work on their tasks decided by team discussion.
+The design pattern used to create the CPSS is the MVC (Model View Controller) design pattern.  
+The MVC design patter clearly separated the web application’s behavior  presentation and control.  
+Be careful of "scope creep" which are uncontrolled changes.  Most large projects fall victim to scope creep. Scope creep often results in cost overrun.
+Development is done on an extra application server
+Application is deployed into 2 application servers working in a cluster. (4 in the future)
+The member balance amount that will be calculated and sent to the billing system shall be compatible with the data types and design constraints of the billing system.
+An administrator shall be able to register a satellite with the system.
+Once a student is dropped, the information associated with the student cannot be removed or modified.
+The Project Outline View is a new View to the Eclipse Platform. This View is very similar to the Outline

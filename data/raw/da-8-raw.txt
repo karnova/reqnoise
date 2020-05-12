@@ -1,0 +1,88 @@
+The only requirements besides having an iPhone will be having a Twitter account and internet acces
+The Twitter client is a two monts project that cost us almost seventy million dollars.
+The data objects that are while used inside the application will be tested using black box testing.
+They will provide all the information the user wants to see based on what he or she inputs
+The user is the main data object of the client's system.
+The user will log into the client by supplying a username and password.
+If the user does not already have a Twitter account, then they will have to create one in order to log into the client
+After logging in, the user will then be able to use a search box for any anything they may want to search for, or they can enter a new Tweet for their own account.
+The user will also be able to select who to follow, and whether or not to allow someone to follow them.
+The user's Twitter page is designed using user centered design approach.
+This is where all the users Tweets are displayed and also the list of whom he or she is following or who is following them.
+As the user enters new Tweets or someone tags his or her name in a Tweet, the page will change.
+The new page must be updated every time a change occurs.
+A tweet is an object of a class Tweet that has attribute message, source, and destination.
+A Tweet will be input by the user of the client.
+A Tweet can be any sort of text as long as it is under the maximum number of characters allowed per Tweet.
+A newly entered Tweet will appear on the user's Twitter page upon submission.
+Each pages on Twitter are also an object of a class Tweet.
+The user will be able to access other pages by either searching or clicking a linked page on their page.
+The client would not be appealing if only the user's page could be accessed, so ability to access other pages is essential.
+A trending topics page will be very useful to the user because it will keep them up to date on what is popular.
+The user will enter a Tweet that can be seen by themselves and anyone who is following them.
+If the user is tagged in a tweet it will immediately be viewable by the user.
+The user has the ability to search for other Twitter pages by using a search box.
+The Twitter client will store data only in one location.
+The only data that will be stored will be the users username and password to increase ease of access.
+The tweets that the user enters and the tweets that the user is tagged in will all be handled by the Twitter API that we will be working with.
+The searches that the user submits do not need to be saved, so they will not be.
+A user will enter his/her credentials into the proper fields and the user will be logged into the Twitter system.
+User will be given option to remember credentials so further input at startup is not necessary.
+When the user clicks logout all personal data will be removed and all program data will be wiped.
+The user's password will be removed and the user will be forced to re-enter their credentials at next startup.
+Once the user has successfully logged into the Twitter system, the users Twitter feed will be displayed on the screen.
+The number of previous data displayed will be preset by the user in the preferences pane.
+A new view will display and show a composition window with various rich text and multimedia options.
+The user can then enter his/her tweet and submit it to the Twitter system.
+The tweet will be immediately displayed on the users feed.
+When in the composition window, the user will be prompted with an image picker which will allow the user to insert an image from the users device.
+When in the composition windows, the camera display will be shown and once the image is taken, the user will be given the option to keep re-taking.
+If the user keeps the photo it will be used in the composition window, if the user selects re-take, the photo will be deleted and the camera display will be shown again.
+The user will be prompted to insert existing voice memo or take a new voice memo.
+The user will be prompted with a clip picker so the user may select a pre-existing clip on their device.
+The user will be shown the voice memo window in which he/she may record a new voice memo.
+The user will then have the option to hear the voice memo before submitting.
+Once listened to, the user may select keep or re-record.
+If the user decides to keep the memo, the memo will be inserted into the composition window.
+If the user decided to re-record, the memo will be removed and the user will be shown the voice memo window again.
+This function will display all mentions of the users handle (or username) in the Twitter system.
+This function will display a search window in which the user can search for specific words in Tweets.
+The window will also offer the ability to search for users on Twitter.
+This window will display the users Direct Message (or DM) inbox.
+This function will also allow the user to compose a new message, delete current messages, and read existing messages in greater detail.
+This function will display topics which are currently trending on twitter.
+The order of the topics will be determined by the items rise in popularity over a given timeline.
+This function will display a preferences view which will contain various settings which the user may change based on preference.
+The Twitter client will run natively on all iOS devices, including the iPod touch and iPad.
+The client will be designed specifically for the iPhone/iPod Touch but it will retain the same functionality on the iPad.
+The Twitter client will rely heavily on the Twitter API for retrieval of user data.
+The client must work closely with the programmer to make sure that the project would be a successful one.
+The client application will be designed to work with the latest API available and is based on Apple technology.
+The client will utilize a common design theme throughout the entire system.
+The application will contain multiple views, each of which will serve some primary function.
+Each of these interfaces will differ only in content, but will maintain similar design themes.
+The interface will utilize a fluid and robust interface, it will be easy to understand and will not require a tutorial for first-use (although one will be provided).
+Software Documentation. UML Documentation: Rational Rose. Project Documents: Microsoft Office
+Added the project overview and project organization.
+The diagram designer is in charge of designing the diagrams for the project documentation. This includes UML or diagrams for the prototype, process diagrams for management plans, and KAOS diagrams for documenting the requirements in graphical form.
+Be careful of "scope creep" which are uncontrolled changes.  Most large projects fall victim to scope creep. Scope creep often results in cost overrun.
+The major technology that you rely upon could possibly fail. These major technology risks are things like the Google phone, Android software and/or algorithms, etc.
+The web tier deals with the presentation logic and the pages  rendering
+The business tier deals with the core functionalities of the system. (Search, post, match rides, manage profiles)
+The EIS tier is responsible for storing user profiles, and ride advertisements.
+Runtime Pattern is applied.
+Development is done on an extra application server
+Application is deployed into 2 application servers working in a cluster. (4 in the future)
+Application servers are IBM servers running Jboss Application Server
+Database server is IBM server running MySQL server.
+All application servers and Database server have redundancy using mirroring RAID mode.
+Workstations run Linux and use Eclipse platform for development.
+User checks usage history 
+End user cannot access (as phrased in URCAR 45-48 and URCAR50) the document spaces of other clients.
+User can update personal data
+The system provides financial reports including: patron account balances by patron, home library, and system fines and charges accrued per time period (e.g. last twelve months, YTD, last month) and per type of charge (overdue fines, damaged item charges, lost item charges, etc.) fines waived per time period and per branch payments made per time period and per payment method (e.g. staff desk, self-check station, OPAC).
+The user will be able to change the status of the applicants as needed.
+The system shall display both the active and completed order history in the customer profile.
+A meeting scheduler may provide the "meeting initiator" a summary of the scan of "potential meeting participants" showing available "time slots" and schedule conflicts as a means of informing the "meeting initiator" of the overall results of the system.
+An administrator shall be able to register a satellite with the system.
+Once a student is dropped, the information associated with the student cannot be removed or modified.

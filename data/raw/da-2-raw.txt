@@ -1,0 +1,31 @@
+The system administrator must be able to deactivate and reactivate student account login
+The system administrator must be able to force the sending of a new password to a student via email
+The system administrator must be able to change any of a student's details
+Student can be registered on the system and fill in all detail and forward to choose project/supervisor
+Student can change detail if the information is incorrect such as telephone number
+Student can change his login password at any time for security reason
+The student could request his password if he/she forgot the password
+All staff can view the details of any student
+Certain staff may be designated as Unit or Cohort Co-ordinators and can change the details of any student doing their unit or project cohort
+Unit Cohort co-ordinator can change student detail for incorrect information
+Unit Cohort co-ordinator can view student information and monitor their progress
+Unit Cohort co-ordinator can provide all list employee who requests a personal development program
+Unit Cohort co-ordinator can reset the student's password if required
+System Administrator can backup the mail server of course registration regularly
+System Administrator can reset the student's password if required
+Administration Staff can create a monthly accounting report
+Administration Staff can make a school announcement
+This model encompasses the following activities: system engineering, requirement analysis, software design, implementation, and testing. The requirement analysis will be highly emphasized
+The SDMS will be developed under the waterfall process model.
+The team consists of 7 members, and each member will be involved in a sub-phase of the project as a team leader. 
+Team Crutch is developing a software application for Android cell phones that will mitigate the communication barriers faced by people with these deficiencies. 
+The constant involvement of end users/beta users and developers to continuously monitor and find out the requirement gap. 
+Be careful of "scope creep," which are uncontrolled changes.  Most large projects fall victim to scope creep. Scope creep often results in cost overrun.
+The design pattern used to create the CPSS is the MVC (Model View Controller) design pattern.  
+The MVC design pattern clearly separated the web application’s behavior presentation and control.  
+User checks usage pattern history cluster
+Administration Staff can create a monthly accounting report
+Each role is managed by at most one other role.
+An administrator shall be able to register a satellite with the system.
+The system shall provide for replication of databases to off-site storage locations.
+The client administrator can manage roles for its client.

@@ -1,0 +1,94 @@
+This software is being developed to for customer Xuan Gu an employee for the CISE Department at the University of Florida.
+"TA1 is part of a four-part project consisting of a Faculty	 Admin	 TA1 and TA2."
+The TA1 interface will allow the user to edit the number of TA slots for a particular course as well as assign/update TA applicant categories.
+There will also be a secure login before any of these interfaces are accessible.
+The format of this SRS is simple.
+Bold face and indentation is used on general topics and or specific points of interest.
+The remainder of the document will be written using the standard font New Times Roman.
+This document is intended to be read by the customer Xuan Gu.
+This is a technical document and the terms should be understood by the customer.
+"The scope of this project includes our group of developers assisted by our customer	 Xuan."
+The scope thus far has been the completion of the basic interfaces that will be used to build the system.
+The database used has been set up and given the necessary permissions.
+The constraints felt thus far by the group have only been our weekly story cards the end-to-end side of the interface and our first release scheduled for February 11 2004.
+"Resources have been used from Dr. Cubertï¿½s website www.cise.ufl.edu/~rmc/se/	 and this SRS was modeled after one found online at http://www.processimpact.com/process_assets/srs_template.doc."
+The TA1 Project is a new product that is part of a larger more complete product for our customer.
+It will provide the faculty a way of viewing all of the TA1's information that is necessary in order to make a decision on every TAï¿½s status.
+This project has three pages that are part of TA1 which is part of the larger product.
+The first page is a login interface that will only allow access from the proper users.
+The second page displays the available classes based on a certain semester and the course enrollment for a particular class.
+"The third and final page displays information about TA their status	 and any special notes that mightï¿½ve been posted about them."
+"The user classes will be TA1 TA2 Administration	 and Faculty."
+This product is web-based and will be hosted by a web server on the CISE website (www.cise.ufl.edu).
+"This product can be viewed by any web browser and has been tested for compliance with Mozilla Internet Explorer	 Netscape Navigator	 and Opera."
+There are no constraints at this point in time.
+The user documentation can be found in this SRS.
+We assume that extra documentation beyond this SRS would not be necessary in order for the user to utilize this product.
+This feature will give the user a secure and simple login screen.
+It is based on professor Cubertï¿½s exclusionary principle.
+"This means rather than creating try catches for a handful of error types it just has only a handful of available and possible inputs to prevent any improper logging in which might cause unexpected errors	 and therefore limiting the systemï¿½s capabilities."
+"It will consist of two basic fields	 Username and Password."
+There are two buttons: Login and Lost or Forgot Password.
+Login will submit the entered data for approval followed by access and the forgot password will direct the user to access his/her password which has been forgotten.
+The most important function is to only grant access to users that are listed in the database.
+The customer will provide the information on who will be allowed access.
+To implement the security the web page must check the database to see if the Username and Password are valid.
+"If they are not	 the user will receive an ""Invalid login. Please try again.""  response."
+This feature will allow the user to edit the number of TA slots for a specific course.
+The user will be given a list of course numbers and names for a given semester.
+They will also be provided with the number of students enrolled in each specific class.
+This interface will consist of basic fields for the user to enter information.
+Also information about each person in the database that is listed will be shown if the mouse is highlighting a name for one second.
+This helps alleviate some time when the user is searching for data because it lessens the usage of the submit button because the data has already been found.
+"Additionally once logged in	 upon hitting the back button and reentering the site will not call for another log in screen."
+It will therefore take you to the following page of options.
+To use this interface there will be many functional requirements.
+The main function will use PHP to pull the course information off of the database.
+"This feature will not only provide the user with the general information on all the applicants	 but also allow them to assign and update the TA categories."
+The user will be given a list of names and UFIDï¿½s of all the applicants to their courses.
+They will also be given the ability to sort the applicants in order of UFID or alphabetically by their last names.
+The user will be able to change the status of the applicants as needed.
+This interface will depend mostly on retrieving information from the database.
+PHP will be integrated into the HTML and will retrieve needed information for the interface.
+The site will be xhtml1.1 and css compliant.
+The first interface is the log-in screen.
+This is where the user has a specific Username and Password so that they can gain access to the database.
+Next is the TA Slots interface.
+You can choose which semesterï¿½s classes you would like to view and are able to update any of the categories displayed in the columns.
+The next and final interface is the ï¿½assign/updateï¿½ page.
+Though not necessarily interfacing with the hardware the system must make use with an internet connection.
+The system uses an internet connection to connect to the database.
+"The code itself though	 does not specifically direct the network controllers to do any work."
+Along with the internet connection the system makes indirect use of an internet browser.
+Outside of the HTML code and PHP the code doesnï¿½t tell any software including the browser what to do.
+Access to the database should be restricted to people that are required to view information about TAï¿½s.
+Passwords and IDï¿½s should be regulated to be at least a certain length and must contain non-alphanumeric characters in both the password and ID.
+Used an existing template to structure the document. Added meeting minutes, project deliverables, references, and team members.
+Added the project overview and project organization.
+Android Programmers will be involved with prototype creation and feasibility studies for requirements elicitation purposes.
+Helps elicit requirements by approaching the situation from the perspective of a potential customer or user during requirements documentation group meetings.
+Helps elicit requirements by approaching the situation from the perspective of a potential customer or user during requirements documentation group meetings.
+The diagram designer is in charge of designing the diagrams for the project documentation. This includes UML or diagrams for the prototype, process diagrams for management plans, and KAOS diagrams for documenting the requirements in graphical form.
+Meeting the project deadlines is the highest management priority, followed by quality deliverables. Since these documents are iterative, quality can be improved over time. While coordinating schedules and having each member participate are important goals, producing deliverables on time, regardless of who is currently available to work on them, will take priority in emergency situations.
+As the project progresses more and more features that were not identified at the beginning of the project emerge that threaten estimates and timelines. This will considerably impact the project schedule and costs required to cover all the requirements.
+As the project progresses more and more features that were not identified at the beginning of the project emerge that threaten estimates and timelines. This will considerably impact the project schedule and costs required to cover all the requirements.
+Be careful of "scope creep" which are uncontrolled changes.  Most large projects fall victim to scope creep. Scope creep often results in cost overrun.
+The major technology that you rely upon could possibly fail. These major technology risks are things like the Google phone, Android software and/or algorithms, etc.
+The design pattern used to create the CPSS is the MVC (Model View Controller) design pattern.  
+The MVC design patter clearly separated the web application’s behavior  presentation and control.  
+The web tier deals with the presentation logic and the pages  rendering
+The business tier deals with the core functionalities of the system. (Search, post, match rides, manage profiles)
+The EIS tier is responsible for storing user profiles, and ride advertisements.
+Runtime Pattern is applied.
+Development is done on an extra application server
+Application is deployed into 2 application servers working in a cluster. (4 in the future)
+Application servers are IBM servers running Jboss Application Server
+Database server is IBM server running MySQL server.
+All application servers and Database server have redundancy using mirroring RAID mode.
+The Project Outline View is a new View to the Eclipse Platform. This View is very similar to the Outline
+An administrator shall be able to register a satellite with the system.
+The member balance amount that will be calculated and sent to the billing system shall be compatible with the data types and design constraints of the billing system.
+The user will enter a Tweet that can be seen by themselves and anyone who is following them.
+Once a student is dropped, the information associated with the student cannot be removed or modified.
+The system shall display both the active and completed order history in the customer profile.
+A meeting scheduler may provide the "meeting initiator" a summary of the scan of "potential meeting participants" showing available "time slots" and schedule conflicts as a means of informing the "meeting initiator" of the overall results of the system.

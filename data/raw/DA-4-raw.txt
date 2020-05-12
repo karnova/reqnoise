@@ -1,0 +1,14 @@
+User can see detailed information about SGP
+User can apply for SGP
+User can application update form for SGP
+User can update personal data
+User can upload application related documents
+User can take english proficiency test
+Added the project overview and project organization.
+Edited document template, project organization, and "Work Elements, Schedule, and Budget".
+Edited the project organization and managerial process. The document template was also revised.
+Added 3.3 Risk Management section.
+The design pattern used to create the CPSS is the MVC (Model View Controller) design pattern.  
+The MVC design patter clearly separated the web application’s behavior  presentation and control.  
+User checks credit balance
+The initial login and password for general users will be encrypted.

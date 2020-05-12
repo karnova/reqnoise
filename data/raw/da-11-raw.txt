@@ -1,0 +1,112 @@
+The product provides the members with online blocking of books capabilities and the Online Library System is up and running all day.
+The system provides logon facility to the users.
+The system provides the members with the option to check their account and/or change their options like password of the account whenever needed all through the day during the library hours.
+The system allows the members to block the books 24 hours a day and all the through the semester.
+The system lets the library staff to check which all members have blocked the books and whether they can borrow any more books or not.
+The system allows the Librarian to create the books catalog, add/delete books and maintain the books catalog.
+The system updates the billing system as and when the member borrows or returns a book.
+The book catalog is automated and the decision of offering the book based on the category of the book is automatically decided.
+We also have an order department, which manages to add or remove a book from the Library.
+The member should be provided with the updated information about the books catalog.
+Provisions for the members to borrow the books they want, if all the other required rules hold good.
+The member is given a provision to use all facility within the gym within the operational hour without having to bring his/her member card.
+The members are provided with the books available roster and allowed to choose the books, which they want to use in the coming up days.
+The librarian can get the information about the members who have borrowed or returned the books.
+The librarian is provided with interfaces to add/delete the books available in the book catalog.
+The members when complete the book borrowing or returning process, the due to be paid by the member must be calculated and the information about the member and the due amount is sent to the university billing system.
+The system uses the University information security requirements to provide the login facility to the users.
+The information of all the users must be stored in a database that is accessible by the Online Library System.
+The university information security system is a system design to make sure that all internet applications within the university are secured at all times.
+The Online Library System is connected to the university computer and is running all 24 hours a day.
+The users access the Wiley Online Library System by paying monthly fee starting from US$2 up to US$10 with respect to their access frequency.
+The billing system is connected to the Online Library System and the database used by the billing system must be compatible with the interface of the Online Library System.
+The users must have their correct usernames and passwords to enter into the Online Library System.
+The users should have pass high schoolr to be allowed to register to the university this year.
+The University computer should have Internet connection and Internet server capabilities.
+The users know the English language, as the user interface will be provided in English
+The product can access the university student database
+The system shall provide the users with logon capabilities.
+The Online Library System is also supported on mobile devices such as cell phones.
+The system can alert the Librarian or the administrator in case of any problems.
+The system shall allow the users to access the system from the Internet using HTML or it's derivative technologies.
+The system uses a web browser as an interface.
+Since all users are familiar with the general usage of browsers, we won't have to provide rigorious training this month.
+The system is user friendly and self-explanatory.
+The system has to be very reliable due to the importance of data and the damages incorrect or incomplete data can do.
+The system is available 100% for the user and is used 24 hrs a day and 365 days a year.
+The system shall be operational 24 hours a day and 7 days a week.
+The system will be developed in such a way that it may fail once in a year.
+Even if the system fails, the system will be recovered back up within an hour or less.
+The accuracy of the system is limited by the accuracy of the speed at which the employees of the library and users of the library use the system.
+The system shall provide 100% access reliability.
+The Splash Page or Information page should be able to be downloaded within a minute using a 56K modem.
+The information is refreshed every two minutes.
+The access time for a mobile device should be less than a minute.
+The system shall respond to the member in not less than two seconds from the time of the request submittal.
+The system shall be allowed to take more time when doing large processing jobs.
+The system shall take as less time as possible to provide service to the administrator or the librarian.
+The number of transactions is directly dependent on the number of users, the users may be the Librarian, employees of the Library and also the people who use the Library for checking-out books, returning books and checking online library account.
+The system is capable of handling 250 users at a time.
+The resources are modified according the user requirements and also according to the books requested by the users.
+The system designers shall take in to considerations the following supportability and technical limitations.
+The system shall be comply with the TCP/IP protocol standards and shall be designed accordingly.
+The system shall support the UHCL information security requirements and use the same standard as the UHCL information security requirements.
+The member balance amount that will be calculated and sent to the billing system shall be compatible with the data types and design constraints of the billing system.
+The maintenance of the system shall be done as per the maintenance contract.
+The coding standards and naming conventions will be as per the American standards.
+The languages that shall be used for coding the Online Library System are Active Server Pages (ASP), Java Servlets, Java Server Pages (JSP), HTML, JavaScript, and VBScript.
+For working on the coding phase of the Online Library System, the Internet Information Services (IIS) Server needs to be installed.
+Will make use of the available Java Development Tool kits for working with Java Beans and Java Server Pages.
+Also will make use of the online references available for developing programs in ASP, HTML and the two scripting languages, JavaScript and VBScript.
+Will make use of the existing Java libraries available for JSP and Servlets.
+Also we need to develop some new libraries for the web-based application.
+Also will develop new programs using ASP and scripting languages.
+Online help is provided for each of the feature available with the Online Library System.
+All the applications provide an on-line help system to assist the user.
+The nature of these systems is unique to application development as they combine aspects of programming (hyperlinks, etc) with aspects of technical writing (organization, presentation).
+Online help is provided for each and every feature provided by the system.
+The User Manual describes the use of the system to Librarian and Employees.
+It describes the use of the system on mobile systems.
+The user manual should be available as a hard copy and also as online help.
+An installation document will be provided that includes the installation instructions and configuration guidelines, which is important to a full solution offering.
+Also, a Read Me file is typically included as a standard component.
+The Read Me includes a "What's New With This Release" section, and a discussion of compatibility issues with earlier releases.
+Most users also appreciate documentation defining any known bugs and workarounds in the Read Me file.
+Since the installation of Online Library System is a complex process, our experts will do it.
+So an installation Guide will not be provided to the user.
+The System Administrator will need to purchase the license for IIS Server.
+Mostly it is available on the online shop and local supermarket.
+So you have to make sure that the system need not purchase any licensing products from Microsoft.
+Will make use of the existing Web Browsers such as Microsoft Internet Explorer or Netscape.
+The user-interface of the system shall be designed as shown in the user-interface prototypes.
+The existing Local Area Network (LAN) will be used for collecting data from the users and also for updating the Library Catalogue.
+A firewall will be used with the server to prevent unauthorized access to the system.
+The Online Library System will be connected to the World Wide Web.
+The usage is restricted to only University of Houston-Clearlake Library who is purchasing the Online Library System from Library InfoSys and signs the maintenance contract.
+Online Library System is a trademark of Library InfoSys and cannot be used without its consent.
+Client techniques and tools: JSP, Html, Javascript. Server techniques and tools: Servlet, Tomcat. Database: MySQL
+As the project progresses more and more features that were not identified at the beginning of the project emerge that threaten estimates and timelines. This will considerably impact the project schedule and costs required to cover all the requirements.
+As the project progresses more and more features that were not identified at the beginning of the project emerge that threaten estimates and timelines. This will considerably impact the project schedule and costs required to cover all the requirements.
+Changes and requirements inflation should be accepted as a fact of software projects. Rather than utilizing change-suppression mechanisms, prioritization sessions are scheduled that allow worthwhile changes to proceed and initially envisioned features to be superseded if the business gives their authorization.
+The major technology that you rely upon could possibly fail. These major technology risks are things like the Google phone, Android software and/or algorithms, etc.
+The design pattern used to create the CPSS is the MVC (Model View Controller) design pattern.  
+The MVC design patter clearly separated the web application’s behavior  presentation and control.  
+The web tier deals with the presentation logic and the pages  rendering
+The business tier deals with the core functionalities of the system. (Search, post, match rides, manage profiles)
+The EIS tier is responsible for storing user profiles, and ride advertisements.
+Runtime Pattern is applied.
+Development is done on an extra application server
+Application is deployed into 2 application servers working in a cluster. (4 in the future)
+Application servers are IBM servers running Jboss Application Server
+Database server is IBM server running MySQL server.
+All application servers and Database server have redundancy using mirroring RAID mode.
+Workstations run Linux and use Eclipse platform for development.
+User checks usage history 
+The system administrator must be able to change any of a student's details
+End user cannot access (as phrased in URCAR 45-48 and URCAR50) the document spaces of other clients.
+User can update personal data
+A meeting scheduler may provide the "meeting initiator" a summary of the scan of "potential meeting participants" showing available "time slots" and schedule conflicts as a means of informing the "meeting initiator" of the overall results of the system.
+The member balance amount that will be calculated and sent to the billing system shall be compatible with the data types and design constraints of the billing system.
+An administrator shall be able to register a satellite with the system.
+Once a student is dropped, the information associated with the student cannot be removed or modified.
+The Project Outline View is a new View to the Eclipse Platform. This View is very similar to the Outline

@@ -1,0 +1,57 @@
+The archive administrator can create a new client space.
+The client administrator can manage roles for its client.
+The archive administrator cannot access documents.
+The client administrator can view all roles.
+The client administrator canï¿½t read the contents of documents.
+The client administrator cannot be deleted.
+An end user can have multiple roles at the same time.
+Each end user has a person role.
+Only authenticated end users at the client server can access (as phrased in URCAR 45-48 and URCAR50) the document space.
+The end user cannot access (as phrased in URCAR 45-48 and URCAR50) the document spaces of other clients.
+An end user can view assigned rights that are assigned to his role.
+Each role is managed by at most one other role.
+Each role inherits all static rights from the roles it manages.
+Each role has a set (possibly empty) of person roles assigned to it.
+Each role owns a set of documents in the SDA.
+Each role has a set of rights assigned to it.
+The archive administrator can limit the available client space.
+A role can't be deleted when there exist documents that are owned by that role.
+An end user can search for a predefined period of time delegate a role to another person role.
+A role has a login which the assignment of rights and the expiration of rights are logged.
+A role has a login which delegations and the expiration of delegations are logged.
+A role can have the right to assign a role-right to a subordinate role.
+A role can have the right to remove a role-right from a subordinate role.
+A role can have the right to create subordinate roles.
+Any role has the right to read (view) all roles.
+A role can have the right to update subordinate roles.
+A role can have the right to delete subordinate roles.
+A role cannot be deleted when it manages subordinate roles.
+A role can have the right to couple a person role to a subordinate role.
+A role can have the right to decouple a person role from a subordinate role.
+A role can have the right to assign a document right of a document he owns to another role.
+A role can have the right to take a document right of a document he owns from another role.
+A role can upload files into the document space associated with that role.
+A role can download files from the document space associated with that role.
+A role with the update right can update files in the document space associated with that role.
+A role with the delete right can delete files in the document space associated with that role.
+Each document in the SDA is owned by exactly one role.
+A role that owns a document can hand over that ownership to another role.
+A user can start chatting with another user by clicking on the chat menu
+Documentation will also be updated after each meeting. The team leader can adjust the weekly goals by checking the progress of each subphase to ensure the subphase will meet the requirements and be deliverable on time.
+Software Documentation. UML Documentation: Rational Rose. Project Documents: Microsoft Office
+Added the project overview and project organization.
+The design pattern used to create the CPSS is the MVC (Model View Controller) design pattern.  
+The MVC design pattern clearly separated the web application’s behavior presentation and control.  
+The business tier deals with the core functionalities of the system. (Search, post, match rides, manage profiles)
+The EIS tier is responsible for storing user profiles and ride advertisements.
+Runtime Pattern is applied.
+After deployment, the development server fails. Use one of the operational servers if urgent until the problem is fixed
+One of the operational servers fails. The two deployment servers will be the replacements of each other
+Any of the development workstations fail. There are three spare workstations in case of workstation failure.
+Administration Staff can create a monthly accounting report
+The system shall provide multi-language support.
+An administrator shall be able to register a satellite with the system.
+The PHP editor will have a wizard that will support the following search options Classes Functions Constants Variables.
+This window will display the users Direct Message (or DM) inbox.
+The initial login and password for general users will be encrypted.
+They will provide all the information the user wants to see based on what he or she inputs.

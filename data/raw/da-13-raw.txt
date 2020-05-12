@@ -1,0 +1,33 @@
+Manage course information: the general user can use the system to enter and modify course information. The local database maintains the information.
+Manage student information: the general user can use the system to enter and modify student information, or to download student information from the university database. In addition, the user can delete a student from a course. The local database maintains the information.
+Enter outcomes: the general user can use the system to enter course outcomes. The user can assign a ranking to each course outcome. The local database maintains the information.
+the general user can use the system to select one of two types of targeted competencies that can be used to automatically check progress toward achieving course outcomes.
+the general user can use the system to map course outcomes to program outcomes to map AIUs to course outcomes and to map course outcomes to targeted competencies.
+The general user can use the system to enter information related to an AI. 
+Modify AIs: the general user can use the system to modify information related to an AI. The local database maintains the information.
+Enter grades: the general user can use the system to enter student grades related to an AI and to enter formulae for calculating grades. The local database maintains the information.
+Archive course and student information: the general user can use the system to archive course and student information to the central database from the local database at the end of the semester.
+Access the system: the general user can access the system through a unique login name and password.
+Open course: the general user can select a course from the list of courses that s/he owns.
+Set password - The user can set the password for accessing and entering information on the course.
+Set property list: The user can set the property list that gives the login names for the users who can access a course.
+Enter formula: the general user can define the formulas that will be used to calculate students' grades on an AI, assessment category, or course.
+The system will not be accessible to unauthorized users.
+All data transmitted to the central database will be encrypted.
+According to the term of reference (TOR), the software development should be completed by the end of April 2001. The development team should deploy the system to the production environment within 6 months after the completion.
+The university database is the banner system, which plays the central roles within the enterprise architecture. The system is maintained by the central for computation and services
+Each professor has access to a desktop computer.
+A table with login and password has been set up for each professor in the departments of the College of Engineering and is maintained in the local database.
+The initial login and password for general users will be encrypted.
+The timeframe to upload data to the central database is the day that grades are due to the university and one week before the start of the new semester.
+Student  outcomes that include course outcomes, ABET outcomes a-k and additional program outcomes are stored in the local database.
+Once a student is dropped, the information associated with the student cannot be removed or modified.
+Implement the right features and pay close attention to what our target audience wants and most important what they need.  The HOPE software will provide a much needed service for the elderly and disabled if it is easy to use.
+The major technology that you rely upon could possibly fail. These major technology risks are things like the Google phone, Android software and/or algorithms, etc.
+Application servers are IBM servers running Jboss Application Server
+Database server is IBM server running MySQL server.
+All application servers and Database server have redundancy using mirroring RAID mode.
+Workstations run Linux and use Eclipse platform for development.
+The user will be able to change the status of the applicants as needed.
+The system shall display both the active and completed order history in the customer profile.
+The user will enter a Tweet that can be seen by themselves and anyone who is following them.

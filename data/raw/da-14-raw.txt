@@ -1,0 +1,97 @@
+PHP IDE’s main user objective is to answer all PHP developer needs.
+A PHP project contains source code and related files for maintaining a PHP Application. A PHP project can be organized in two different ways using the project as the source container. Using source folders inside the project as the source container.
+A wizard is available for creating a PHP project. The wizard can be access by the Project Wizard in eclipse (File>>New>>Project). In the Project Wizard there will be a project type named "PHP Project" that will launch the create PHP project wizard.
+When in the PHP perspective a Create PHP project wizard icon will be on the tool bar and a File>>New>>PHP Project will exist on the menu.
+PHP Version – The user should be able to choose between PHP4 and PHP5 and by that change all related components: code assist, syntax coloring and PHP functions.
+ASP tags support - support ASP tags as PHP tags for all PHP actions and parsing.
+Default File Encoding – The project will support a default encoding that will be used for all files created in the project. Location – The location of the project. The default location when a project is created is the eclipse workspace. When a location is specified, any directory/file at that location will be part of the project. Only the developer’s data files will reside at the location. Eclipse internal project files will reside in a eclipse internal directory.
+The PHP project will support a properties menu item to display the properties of a project.
+Files can be added to a project by the following methods. Import from File System Drag and Drop.
+Any file that is not added to a project using the "New PHP file Wizard" will be given the default file encoding of the project.
+A project can be saved, retrieved, and synchronized with a CVS repository. All the properties of the project and files in the project (encoding, version, etc) will be saved, retrieved, and synchronized with the repository.
+These are the menu items that affect a PHP project. There may be other items on the Project Menu because eclipse supports other types of projects. The Project Menu items vary based on the project selected.
+During typing the PHP inspector is run and highlighting of errors (a squiggly line under the code) occurs for the file. Errors detected during typing are not displayed in the problems view. The build options in the project menu determine when the eclipse builder is run. The eclipse builder is potentially a long running operation. Depending on the changes made, every file in the workspace could be rebuilt. Eclipse attempts to determine the files that have changed based on the project dependencies. The eclipse builder is run as a background task so that the developer can continue to work. Problems detected during the build phase will show up in the problems view and will be highlighted using a squiggly line under the code.
+When a project is closed, it can no longer be changed and its resources no longer appear in the Package Explorer, Project Outline View, etc. To re-open the project, select the project in the PHP Explorer View and click on Open Project. Eclipse doesn’t have a concept of .prj files.
+Some of the menu items may be handled by the low level eclipse infrastructure and not require implementation by the PHP project. Other are open issues to be resolved, but are listed here since they will show up in the Menu unless some specific action is taken to turn them off.
+When a location is specified, any directory/file at that location will be part of the project. Only the developer’s data files will reside at the location. Eclipse internal project files will reside in a eclipse internal directory.
+The ability to create a PHP file with the following properties will be supported.
+A Local history of a file is maintained when you create or modify a file. Each time you edit and save a file, a copy of it is saved. This allows you to compare your current file state to a previous state, or replace the file with a previous state. Each state in the local history is identified by the date and time the file was saved.
+If the project is being maintained in CVS, the option to compare, replace, restore, etc the file from CVS will be supported. Anytime a PHP file is synchronized with a CVS repository, the properties of a file are transferred (encoding).
+The PHP Inspector is responsible for analyzing all PHP code files in an Eclipse Platform. The PHP inspector should inspect the following: PHP Elements. PHP classes – including the following data. File name. Positions. Modifier.
+This is the source of all PHP language classes, functions and constants.
+Format of PHP files that can be editable.
+The file should be located as part of the plugin/installation directory in a lib directory.
+Two files should be included: phpFunctions4.php phpFunctions5.php
+Any change in these files will effect the following in all projects:
+PHP Editor should extend the Web Tools text editor and should inherit all its capabilities and actions. The PHP Editor should allow working on more then one programming language at the same time (PHP & HTML)
+Syntax Coloring – PHP Editor should color several languages at the same time. The Syntax Coloring should be customizable through the Editor preferences.
+Should support both PHP 4 and PHP 5 (see PHP Project – PHP Version)
+Should color: default text, keywords, variables, numbers, strings, herdocs,
+Single-line comments, Multi-line comments, PHP tags, function names.
+Supports both PHP 4 and PHP 5 (see PHP Project – PHP Version)
+Support Auto Activate if possible and suitable for Eclipse (with size limit and time delay)
+Suggests and completes classes, functions, variables, constants and keywords, PHPDoc tags, PHPDoc variables
+Shows function signature while calling the function.
+The PHP editor will have a wizard that will support the following search options Classes Functions Constants Variables.
+The scope of files searched can be limited to Workspace, Selected Resources, Enclosing Projects, and Working Set. When the search is completed the PHP will open a search view with the results. Files when opened in the editor will be annotated with the search result.
+Annotation is a piece of information attached to a certain region of a text document.
+The editor will support moving to the next/previous annotations by icons on the Tool Bar and menu items. The editor will support the preferences set in annotation preference wizard supported by the Workbench.
+Quick Diff provides color-coded change indication while you are typing. When the mouse cursor is placed over a change in the vertical ruler, a hover displays the original content, which can be restored using the ruler's context menu. Quick Diff will support both local history and CVS.
+The PHP Editor will support the standard eclipse Key Bindings. 
+The Outline view displays a Tree representation of the contents of the editor that is currently visible in the editor area of the workbench. For PHP files, the Outline should display elements like classes, functions, variables, included files, and constants. It should optionally also display the content outside the PHP areas (ex. HTML, XML, CSS, JavaScript).
+Global Menus: Collapse all, Expand all, Show PHP/HTML
+PHP nodes support  Add/Delete/Rename class, function, variable, included file, constant (in the long future)
+Other content: Provide default behavior that is available on the other editors. For example, HTML content nodes should have the same context menu when in an HTML file.
+Selection: Selecting the Tree node in the Outline view highlights the represented element on the editor. This should also work in the other direction, meaning that the Outline view should highlight the node represented by the area under the editor’s caret.
+The Project Outline View is a new View to the Eclipse Platform. This View is very similar to the Outline
+View except that it should display the elements of the project correspondent to the opened file.
+All other functionality should be identical to the Outline View. This view is basically gathering of all Outline Views data of the entire project files. Similar to the Package Explorer from the JDT, the PHP Explorer shows the PHP element hierarchy of the PHP projects in the workbench. It provides a PHP-specific view of the resources shown in the Navigator.
+The element hierarchy is derived from the project's build paths.
+The PHP Explorer View will support using Working Set to determine the projects that are shown.
+The actions (right click menus) of the Explorer view are derived form the Project actions (appears in section 3.1 under Right Click Menu Items).
+The Problems view should display all PHP errors and warnings. Should include "include files" problem (in the future). All errors and warnings will have a description, resource, folder, and location associated with them. Resource refers to the php file containing the problem. Folder refers to the directory containing the php file. Location will refer to the line number containing the problem.
+When a user clicks on a problem in the problems view, the php file containing the error or warning will be displayed in the editor.
+When a user clicks on a missing include file, a file wizard will appear to add the file to the project.
+Syntax Coloring – customized syntax highlighting for PHPDoc tags and their values (see Editor – Syntax Coloring).
+Inspection – The value of the following tags should be inspected: abstract, access, author, copyright, deprecated, example, exception, final, global, ignore, internal, link, magic, name, return, package, param, see, since, static, staticvar, subpackage, throws, todo, var and version.
+Code Assist – for the list of tags appears above there should be code assist as well.
+Adding description Outline view – right click action to add description to the selected data Project Outline View - right click action to add description to the selected data Code Assist – Button and shortcut to add description to the selected data in the list (if possible, will be added in future versions).
+In a document with PHP as well as other content (i.e. HTML), each content should have a Formatting strategy. 
+Invocation: Formatting is initiated by either "ctrl-shift F" key combination of through menu. There should be both a global menu item and a context menu item.
+Default encoding for each project – will open file from the Explorer view with this encoding
+File chooser will include a list of all available encoding options with the default encoding selected.
+Saving file with a specific encoding or the default one.
+This is a Toolbar and Menu option similar to the JDT’s Open Type. The JDT’s version of Open Type is a dialog that allows the user to search for Classes and Interfaces and subsequently open the file that defines it. For PHP, this behavior will be extended for Classes, Functions, and Constants.
+View with all the PHP functions available in the language according to the PHP version defined in the edited file’s project (see PHP Functions – PHP Language Data).
+Open manual - with an explanation about the selected PHP function from the list.
+Short description - in a tool tip about the function and its arguments
+Adding - the function to the edited file.
+This view is an offline view of the PHP Manual (http://www.php.net/download-docs.php). The PHP IDE should be customizable to work with any downloaded version of the PHP Manual (should support different languages). The manual control will be supported by extension point to add new manuals from different sites.
+The view should support: Quick link from the editor depends on the caret location and the relevant function Link from the PHP functions list;
+In eclipse, Perspectives define the initial set and layout of views in the Workbench window. 
+The PHP perspective will include the following views: PHP Explorer View Outline View Editor View Project Outline View Problems View PHP Manual View (if possible with embedded browser problem) PHP Functions View Search View (after the first search);
+The PHP perspective will save state (views, files opened, etc) when closed. And reopen to the same state. The PHP perspective will support customization through the Customize Perspective wizard. The customized perspective can be saved under a user specified named. It is possible for a developer to have multiple PHP perspectives with different customizations each with its own name. The PHP perspective will also support resetting the perspective back to the default settings.
+The Debug Perspective will present the user with common debugging tasks. There will be toolbar buttons to stop, pause, and start execution. The perspective will contain the following views;
+Gather all TODO tasks from the entire PHP project files to a complete list (as it is today). The List should appear next to the Problems View. TODO task should start with "TODO".
+Software Documentation. UML Documentation: Rational Rose. Project Documents: Microsoft Office
+Added the project overview and project organization.
+Perform code reviews of critical software and algorithms.  Testing Android’s reliability and construction.  Expert engineers to support and backup the system’s hardware.
+Changes and requirements inflation should be accepted as a fact of software projects. Rather than utilizing change-suppression mechanisms, prioritization sessions are scheduled that allow worthwhile changes to proceed and initially envisioned features to be superseded if the business gives their authorization.
+The web tier deals with the presentation logic and the pages  rendering
+The business tier deals with the core functionalities of the system. (Search, post, match rides, manage profiles)
+The EIS tier is responsible for storing user profiles, and ride advertisements.
+Runtime Pattern is applied.
+Development is done on an extra application server
+Application is deployed into 2 application servers working in a cluster. (4 in the future)
+Application servers are IBM servers running Jboss Application Server
+Database server is IBM server running MySQL server.
+All application servers and Database server have redundancy using mirroring RAID mode.
+Workstations run Linux and use Eclipse platform for development.
+User checks usage history 
+End user cannot access (as phrased in URCAR 45-48 and URCAR50) the document spaces of other clients.
+The system provides financial reports including: patron account balances by patron, home library, and system fines and charges accrued per time period (e.g. last twelve months, YTD, last month) and per type of charge (overdue fines, damaged item charges, lost item charges, etc.) fines waived per time period and per branch payments made per time period and per payment method (e.g. staff desk, self-check station, OPAC).
+The user will be able to change the status of the applicants as needed.
+The system shall display both the active and completed order history in the customer profile.
+The user will enter a Tweet that can be seen by themselves and anyone who is following them.
+The member balance amount that will be calculated and sent to the billing system shall be compatible with the data types and design constraints of the billing system.
+An administrator shall be able to register a satellite with the system.

@@ -1,0 +1,132 @@
+The system shall display detailed product categorization to the user.
+The system shall enable user to enter the search text on the screen.
+The system shall enable user to select multiple options on the screen to search.
+The system shall display all the matching products based on the search.
+The system shall display only 10 matching result on the current screen.
+The system shall enable user to navigate between the search results.
+The system shall notify the user when no matching product is found on the search.
+The system shall allow user to create profile and set his credential.
+The system shall authenticate user credentials to view the profile.
+The system shall allow user to update the profile information.
+The system shall display both the active and completed order history in the customer profile.
+The system shall allow user to select the order from the order history.
+The system shall display the detailed information about the selected order.
+The system shall display the most frequently searched items by the user in the profile.
+The system shall allow user to register for newsletters and surveys in the profile.
+The system shall provide online help, FAQ's customer support, and sitemap options for customer support.
+The system shall allow user to select the support type he wants.
+The system shall allow user to enter the customer and product information for the support.
+The system shall display the customer support contact numbers on the screen.
+The system shall allow user to enter the contact number for support personnel to call.
+The system shall display the online help upon request.
+The system shall display the FAQ's upon request.
+The system shall maintain customer email information as a required part of customer profile.
+The system shall send an order confirmation to the user through email.
+The system shall display detailed invoice for current order once it is confirmed.
+The system shall optionally allow user to print the invoice.
+The system shall provide shopping cart during online purchase.
+The system shall allow user to add/remove products in the shopping cart.
+The system shall display different shipping options provided by shipping department.
+The system shall enable user to select the shipping method during payment process.
+The system shall display the shipping charges.
+The system shall display tentative duration for shipping.
+The system shall allow user to enter the order information for tracking.
+The system shall display the current tracking information about the order.
+The system shall calculate tax for the order.
+The system shall display tax information for the order.
+The system shall display available payment methods for payment.
+The system shall allow user to select the payment method for order.
+The system shall display the orders that are eligible to change.
+The system shall allow user to select the order to be changed.
+The system shall allow user to cancel the order.
+The system shall allow user to change shipping, payment method.
+The system shall notify the user about any changes made to the order.
+The system shall display the reviews and ratings of each product, when it is selected.
+The system shall enable the user to enter their reviews and ratings.
+The system shall display all the available financing options.
+The system shall allow user to select the financing option.
+The system shall notify the use about the financing request.
+The system shall allow user to view detailed sitemap.
+The system shall display all the available promotions to the user.
+The system shall allow user to select available promotion.
+The system shall allow user to confirm the purchase.
+The system shall enable user to enter the payment information.
+The system shall provide a uniform look and feel between all the web pages.
+The system shall provide a digital image for each product in the product catalog.
+The system shall provide use of icons and toolbars.
+The system shall provide handicap access.
+The system shall provide multi language support.
+The system shall provide storage of all databases on redundant computers with automatic switchover.
+The system shall provide for replication of databases to off-site storage locations.
+The system shall provide RAID V Disk Stripping on all database storage disks.
+The system shall provide a contractual agreement with an internet service provider for T3 access with 99.9999% availability.
+The system shall provide a contractual agreement with an internet service provider who can provide 99.999% availability through their network facilities onto the internet.
+The product shall be based on web and has to be run from a web server.
+The product shall take initial load time depending on internet connection strength which also depends on the media from which the product is run.
+The performance shall depend upon hardware components of the client/customer.
+The system shall use secure sockets in all transactions that include any confidential customer information.
+The system shall automatically log out all customers after a period of inactivity.
+The system shall confirm all transactions with the customer's web browser.
+The system shall not leave any cookies on the customer's computer containing the user's password.
+The system shall not leave any cookies on the customer's computer containing any of the user's confidential information.
+The customer's web browser shall never display a customer's password.  It shall always be echoed with special characters representing typed characters.
+The customer's web browser shall never display a customer's credit card number after retrieving from the database.  It shall always be shown with just the last 4 digits of the credit card number.
+The system's back-end servers shall never display a customer's password.  The customers' password may be reset but never shown.
+The system's back-end servers shall only be accessible to authenticated administrators.
+The system's back-end databases shall be encrypted.
+The source code developed for this system shall be maintained in configuration management tool.
+The system shall be built using a standard web page development tool that conforms to either IBM�s CUA standards or Microsoft�s GUI standards.
+There are no memory requirements.
+The computers must be equipped with web browsers such as Internet explorer.
+The product must be stored in such a way that allows the client easy access to it.
+Response time for loading the product should take no longer than five minutes.
+A general knowledge of basic computer skills is required to use the product.
+As the product is E-store, On-line help system becomes a critical component of the system which shall provide �.
+It shall provide specific guidelines to a user for using the E-Store system and within the system.
+To implement online user help, link and search fields shall be provided.
+There are many types of interfaces as such supported by the E-Store software system namely User Interface, Software Interface and Hardware Interface.
+The protocol used shall be HTTP.
+The Port number used will be 80.
+There shall be logical address of the system in IPv4 format.
+The user interface for the software shall be compatible to any browser such as Internet Explorer, Mozilla or Netscape Navigator by which user can access to the system.
+The user interface shall be implemented using any tool or software package like Java Applet, MS Front Page, EJB etc.
+Since the application must run over the internet, all the hardware shall require to connect internet will be hardware interface for the system. As for e.g. Modem, WAN � LAN, Ethernet Cross-Cable.
+The e-store system shall communicate with the Configurator to identify all the available components to configure the product.
+The e-store shall communicate with the content manager to get the product specifications, offerings and promotions.
+The e-store system shall communicate with billPay system to identify available payment methods , validate the payments and process payment.
+The e-store system shall communicate to credit management system for handling financing options.
+The e-store system shall communicate with CRM system to provide support.
+The e-store system shall communicate with Sales system for order management.
+The e-store system shall communicate with shipping system for tracking orders and updating of shipping methods.
+The e-store system shall communicate with external Tax system to calculate tax.
+The e-store system shall communicate with export regulation system to validate export regulations.
+The system shall be verisign like software which shall allow the users to complete secured transaction. This usually shall be the third party software system which is widely used for internet transaction.
+The e-store system shall use the HTTP protocol for communication over the internet and for the intranet communication will be through TCP/IP protocol suite.
+E-store should display the disclaimers, copyright, word mark, trademark and product warranties of the Marvel electronics and home entertainment.
+It shall be as per the industry standard.
+Client techniques and tools: JSP, Html, Javascript. Server techniques and tools: Servlet, Tomcat. Database: MySQL
+Helps elicit requirements by approaching the situation from the perspective of a potential customer or user during requirements documentation group meetings.
+The main management objectives are coordinating the schedules of a large team, adequately delegating work so that all members can participate, and delivering high quality deliverables on time. To this end, three sub-teams have been made, each with the ability to meet and work independently under the project leader’s supervision.
+Perform code reviews of critical software and algorithms.  Testing Android’s reliability and construction.  Expert engineers to support and backup the system’s hardware.
+Careful and constant review of the features being implemented.  Evaluation of all features and their cost/benefit for the HOPE software.  Be flexible if change is needed. 
+Be careful of "scope creep" which are uncontrolled changes.  Most large projects fall victim to scope creep. Scope creep often results in cost overrun.
+The design pattern used to create the CPSS is the MVC (Model View Controller) design pattern.  
+The MVC design patter clearly separated the web application’s behavior  presentation and control.  
+The web tier deals with the presentation logic and the pages  rendering
+The business tier deals with the core functionalities of the system. (Search, post, match rides, manage profiles)
+The EIS tier is responsible for storing user profiles, and ride advertisements.
+Runtime Pattern is applied.
+Development is done on an extra application server
+Application is deployed into 2 application servers working in a cluster. (4 in the future)
+Application servers are IBM servers running Jboss Application Server
+Database server is IBM server running MySQL server.
+All application servers and Database server have redundancy using mirroring RAID mode.
+Workstations run Linux and use Eclipse platform for development.
+The member balance amount that will be calculated and sent to the billing system shall be compatible with the data types and design constraints of the billing system.
+An administrator shall be able to register a satellite with the system.
+Once a student is dropped, the information associated with the student cannot be removed or modified.
+The Project Outline View is a new View to the Eclipse Platform. This View is very similar to the Outline
+The user will be able to change the status of the applicants as needed.
+The system shall display both the active and completed order history in the customer profile.
+The user will enter a Tweet that can be seen by themselves and anyone who is following them.
+A meeting scheduler may provide the "meeting initiator" a summary of the scan of "potential meeting participants" showing available "time slots" and schedule conflicts as a means of informing the "meeting initiator" of the overall results of the system.

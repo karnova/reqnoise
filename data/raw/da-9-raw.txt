@@ -1,0 +1,48 @@
+A "meeting initiator" shall initiate a meeting by deciding on a "meeting topic", by selecting a list of "potential meeting participants", and by selecting a "date range", "duration", and "location" for the meeting.
+A "meeting initiator" or "potential meeting participant" shall provide the ability where a person may "delegate" the ability to initiate or accept (or decline) a meeting to another system user.
+A "meeting initiator" shall be one of the "potential meeting participants" by default but may opt to remove himself as a "potential meeting participant".
+A "meeting initiator" shall confirm the meeting and the system shall change the "time slots" of accepting "meeting participants" from a temporary reservation to a scheduled meeting, once all "potential meeting participants" have responded to the "meeting proposal.
+A "meeting initiator" shall cancel the meeting and the system shall change the "time slots" from being temporarily reserved to be freed once the meeting is canceled.
+A "meeting initiator" shall reschedule the meeting and the system reschedule the meeting by releasing the temporary reservations and selecting a different "data range", "duration", or "location" and starting the process over.
+A "meeting initiator" may send a "meeting proposal" for a "virtual meeting" for the available "time slot" if the "date range" and "duration" is acceptable but no location for the meeting is available.
+A "meeting initiator" may cancel the meeting or reschedule the meeting at any time prior to the start of the meeting.
+A meeting scheduler may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.
+A meeting scheduler may provide the "meeting initiator" a summary of the scan of "potential meeting participants" showing available "time slots" and schedule conflicts as a means of informing the "meeting initiator" of the overall results of the system.
+The "meeting initiator" may designate one or more "potential meeting participants" as "important" meaning that their attendance at the meeting is required in order to have the meeting.
+The "meeting proposal" may include an "agenda" or list of topics for discussion during the meeting and may include a list of "required equipments".
+A meeting scheduler will scan all the list of "potential meeting participants" to determine a "time slot" of the required "duration" exists among all "potential meeting participants" once a "meeting proposal" is entered to the system.
+A meeting scheduler will inform the "meeting initiator" that no "time slot" exists for all "potential meeting participants" and may optionally suggest an alternative "date range", "duration", and "location" which is available.
+A meeting scheduler will temporarily reserve the "time slots" for the proposed meeting and inform the "potential meeting participant" of the meeting and request input as to "will attend" or "will not attend", if a "time slot" exists.
+A "potential meeting participant" or their "delegate" may accept or refuse the meeting. If accepting, the "potential meeting participant" becomes a "confirmed meeting participant". If refusing, the "potential meeting participant" may provide a reason for his refusal.
+A "confirmed meeting participant" may request special equipment.
+A "potential meeting participant" or "confirmed meeting participant" may confirm or cancel their attendance at the meeting subject to the administrative rules and practices of the participants.
+Any physical changes to the "location" and its "required equipment" shall be kept up-to-date.
+If any physical changes to the "location" and its "required equipments" shall occur after a "meeting proposal" and before the meeting date, the "meeting initiator" shall be notified promptly.
+The meeting scheduler system shall be able to schedule a meeting with a meeting topic, date range, duration, and location for a list of participants.
+The meeting scheduler system shall monitor meetings, since some of the meeting held as a "virtual meeting".
+The meeting scheduler system shall be able to select a participant as an important participant.
+The meeting scheduler system shall cancel a meeting due to canceling of an important participant.
+The meeting scheduler system shall reschedule a meeting to support conflict resolutions.
+The meeting scheduler shall be available online by the end of this year.
+The meeting scheduler system may (optionally) automatically propose another meeting if current meeting is canceled by an important participant.
+The meeting scheduler system may provide the "meeting initiator" a summary of the scan of "potential meeting participants" showing available "time slots" and schedule conflicts as a means of informing the "meeting initiator" of the overall results of the system.
+The meeting scheduler system may be able to include an agenda for a meeting proposal.
+The meeting scheduler system may suggest a "virtual meeting" for available "time slots" if no location is available or feasible for the meeting.
+The meeting scheduler system may be able to include a list of required equipment for a meeting proposal.
+A meeting scheduler system will temporarily reserve the "time slots" for the proposed meeting.
+A meeting scheduler system will inform the "potential meeting participant" of the meeting.
+Weekly meetings will be set up to review key components at current stage. Team leader is responsible to establish a record to trace the modifications made during the meeting. Further discussions will be made between meetings through online group (google group).
+The primary focus of our team is the reliability, usability, and quality. Satisfying requirements and perfecting the product is very important to us. Meeting user's needs is our top goal.
+The objective of the project is to develop a meeting scheduler product through an organized routine which allows us to concentrate on core elements at different phases more easily and efficiently.
+Fixed up the formatting and table of contents, added the template reference.
+Meeting the project deadlines is the highest management priority, followed by quality deliverables. Since these documents are iterative, quality can be improved over time. While coordinating schedules and having each member participate are important goals, producing deliverables on time, regardless of who is currently available to work on them, will take priority in emergency situations.
+Constant involvement of end users/beta users and developers to continuously monitor and find out the requirement gap. 
+As the project progresses more and more features that were not identified at the beginning of the project emerge that threaten estimates and timelines. This will considerably impact the project schedule and costs required to cover all the requirements.
+Be careful of "scope creep" which are uncontrolled changes.  Most large projects fall victim to scope creep. Scope creep often results in cost overrun.
+Changes and requirements inflation should be accepted as a fact of software projects. Rather than utilizing change-suppression mechanisms, prioritization sessions are scheduled that allow worthwhile changes to proceed and initially envisioned features to be superseded if the business gives their authorization.
+User checks usage history 
+The system administrator must be able to change any of a student's details
+End user cannot access (as phrased in URCAR 45-48 and URCAR50) the document spaces of other clients.
+User can update personal data
+The system provides financial reports including: patron account balances by patron, home library, and system fines and charges accrued per time period (e.g. last twelve months, YTD, last month) and per type of charge (overdue fines, damaged item charges, lost item charges, etc.) fines waived per time period and per branch payments made per time period and per payment method (e.g. staff desk, self-check station, OPAC).
+The user will be able to change the status of the applicants as needed.

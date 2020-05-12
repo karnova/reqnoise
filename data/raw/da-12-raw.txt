@@ -1,0 +1,93 @@
+A user shall have a bank account.
+An account is either an administrator account, a scientist account or an observer account.
+IMSETY shall be a multi-user system.
+IMSETY shall require users to be logged in before they can use any of the system’s functionality.
+IMSETY shall not allow administrators and scientists to be logged in more than once.
+IMSETY shall include a demonstration experiment.
+A user shall only be able to use those parts of the system to which he is authorized.
+Observers shall not be authorized to submit question to system administrator.
+IMSETY shall adhere to table 2.1 for user rights.
+IMSETY shall adhere to table 2.1 for group rights.
+An administrator shall be able to register a satellite with the system.
+An administrator shall be able to retrieve the information of a registered satellite.
+An administrator shall be able to update the information of a registered satellite.
+An administrator shall be able to unregister a satellite with the system.
+An administrator shall be able to register a payload with the system.
+An administrator shall be able to configure whether multiple experiments may be executed simultaneously on a particular satellite.
+An administrator shall be able to retrieve the information of a registered payload.
+An administrator shall be able to update the information of a registered payload.
+At any moment, only one administrator is allowed to update the information of a single payload registration.
+An administrator shall be able to unregister a payload with the system.
+An administrator shall be able to link a registered payload to exactly one satellite.
+IMSETY shall allow an administrator to create an account.
+IMSETY shall allow an administrator to retrieve account information.
+IMSETY shall allow an administrator to configure all plug-ins for the system.
+IMSETY shall allow an administrator to update account information.
+IMSETY shall allow an administrator to delete an account.
+IMSETY shall allow an administrator to configure which users have particular rights to which payloads.
+IMSETY shall allow an administrator to set up possible payload specific commands through a plain text file.
+IMSETY shall allow an administrator to set up possible satellite commands through an interface.
+IMSETY shall allow scientists to retrieve experiment details.
+IMSETY shall communicate a list of payload specific commands to the scientist.
+IMSETY shall let scientists select commands from this list and thereby compose an experiment.
+IMSETY shall not allow scientists to type in commands directly.
+A scientist shall be able to request the scheduling of the execution of experiments on a predefined moment.
+A scientist shall be able to request an experiment, which has not yet been executed, to be unscheduled.
+A scientist shall be able to request to change an experiment, before it is being executed.
+A scientist shall be able to send commands to an experiment already executing.
+At any moment, only one scientist is allowed to compose an experiment on a single payload.
+The system shall upload experiments scheduled and queued for upload to a satellite whenever there is a window of opportunity.
+The system shall download high volume image data of earth from the satelite periodically within the time frame.
+Experiment data can be retrieved from the system.
+Experiment data can be observed in real time while the experiment is being executed during a window of opportunity.
+IMSETY will support the visualization of video data.
+IMSETY will support the visualization of picture data.
+IMSETY will have a plug-in system for data representation. 290
+IMSETY will have a plug-in system for the postprocessing of data representations.
+Observers are able to see representations.
+Observation data can only be gathered during an experiment.
+Collected observation data can be exported from the system to several formats.
+IMSETY shall allow the requesting of downloading of high resolution images from these marked periods.
+Periods can be marked during real-time observation.
+A plug-in system for data preprocessing shall be provided.
+A plug-in providing an example for data preprocessing will be provided.
+A plug-in providing an example of representation postprocessing will be provided.
+The system shall show thumbnails provided by a satellite.
+IMSETY shall allow a scientist to request high resolution versions of the images represented by these thumbnails to be downloaded.
+IMSETY shall represent a timeline of one-way and two-way communication opportunities.
+IMSETY shall provide the possibility to book one-way communications. 310
+IMSETY shall provide the possibility to book two-way communications.
+IMSETY shall communicate failure of satellite communication to the scientist.
+IMSETY shall communicate failure of communication with GENSO to the scientist.
+IMSETY shall communicate the rejection of bookings to the scientist.
+IMSETY shall log all communications with satellites. 315
+IMSETY shall log all communications with the MCCs.
+IMSETY shall log all communications with the MCSes.
+The system shall interface with GENSO through an MCC for purposes of booking.
+The system shall interface with an SiC for communication settlement.
+A protocol shall be defined for interfacing with the MCS based on a list of commands provided by the customer.
+The interface of the system shall be developed using C, C#, or java. Any opensource library are not supposed to be used for that matter
+IMSETY’s backend shall run on a Linux server.
+Fixed up the formatting and table of contents, added the template reference.
+Helps elicit requirements by approaching the situation from the perspective of a potential customer or user during requirements documentation group meetings.
+Meeting the project deadlines is the highest management priority, followed by quality deliverables. Since these documents are iterative, quality can be improved over time. While coordinating schedules and having each member participate are important goals, producing deliverables on time, regardless of who is currently available to work on them, will take priority in emergency situations.
+Changes and requirements inflation should be accepted as a fact of software projects. Rather than utilizing change-suppression mechanisms, prioritization sessions are scheduled that allow worthwhile changes to proceed and initially envisioned features to be superseded if the business gives their authorization.
+The major technology that you rely upon could possibly fail. These major technology risks are things like the Google phone, Android software and/or algorithms, etc.
+The design pattern used to create the CPSS is the MVC (Model View Controller) design pattern.  
+The MVC design patter clearly separated the web application’s behavior  presentation and control.  
+The web tier deals with the presentation logic and the pages  rendering
+The business tier deals with the core functionalities of the system. (Search, post, match rides, manage profiles)
+The EIS tier is responsible for storing user profiles, and ride advertisements.
+Runtime Pattern is applied.
+Development is done on an extra application server
+Application is deployed into 2 application servers working in a cluster. (4 in the future)
+Application servers are IBM servers running Jboss Application Server
+Database server is IBM server running MySQL server.
+All application servers and Database server have redundancy using mirroring RAID mode.
+Workstations run Linux and use Eclipse platform for development.
+User checks usage history 
+The system administrator must be able to change any of a student's details
+End user cannot access (as phrased in URCAR 45-48 and URCAR50) the document spaces of other clients.
+User can update personal data
+The system provides financial reports including: patron account balances by patron, home library, and system fines and charges accrued per time period (e.g. last twelve months, YTD, last month) and per type of charge (overdue fines, damaged item charges, lost item charges, etc.) fines waived per time period and per branch payments made per time period and per payment method (e.g. staff desk, self-check station, OPAC).
+The user will be able to change the status of the applicants as needed.
