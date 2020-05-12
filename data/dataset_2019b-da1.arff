@@ -1,0 +1,38 @@
+@relation corpus_req_arff-weka.filters.unsupervised.attribute.Remove-R22
+
+@attribute idx_req numeric
+@attribute minValNorm numeric
+@attribute maxValNorm numeric
+@attribute meanValNorm numeric
+@attribute STDValNorm numeric
+@attribute varSMNorm numeric
+@attribute minVal numeric
+@attribute maxVal numeric
+@attribute meanVal numeric
+@attribute STDVal numeric
+@attribute varSM numeric
+@attribute bad_MD numeric
+@attribute bad_NN numeric
+@attribute bad_VB numeric
+@attribute bad_RB numeric
+@attribute bad_JJ numeric
+@attribute bad_DT numeric
+@attribute bad_punctuation numeric
+@attribute num_sentence numeric
+@attribute num_words numeric
+@attribute class {req,nonreq}
+
+@data
+1,0.00003,0.96924,0.20519,0.31381,0.10262,0.00602,0.96839,0.09437,0.22567,0.05093,0,2,0,0,0,0,0,1,8,req
+2,0.0012,0.96924,0.24162,0.30705,0.09913,0.00718,0.96839,0.1077,0.22217,0.04936,0,2,0,0,0,0,0,1,9,req
+3,0.00222,0.91297,0.23533,0.34036,0.11687,0.0082,0.92526,0.1054,0.2394,0.05731,0,1,0,0,0,0,0,1,5,req
+4,0.00584,0.6133,0.20874,0.29402,0.09255,0.0118,0.69555,0.09567,0.21543,0.04641,0,1,0,0,0,0,0,1,4,req
+5,0.01728,0.22259,0.16002,0.14594,0.03199,0.02317,0.39605,0.07783,0.13883,0.01927,0,0,0,0,0,0,0,1,4,req
+6,0.0012,0.76512,0.10581,0.20162,0.05169,0.00718,0.81192,0.05799,0.16764,0.0281,0,0,0,0,0,0,0,1,4,req
+7,0.0019,0.7912,0.21833,0.262,0.07723,0.00788,0.83191,0.09918,0.19887,0.03955,0,0,0,0,0,0,0,1,5,req
+8,0.00003,0.76512,0.17955,0.24074,0.06774,0.00602,0.81192,0.08498,0.18787,0.0353,0,0,0,0,0,0,0,1,6,req
+9,0.00451,0.91297,0.30191,0.34121,0.11735,0.01047,0.92526,0.12978,0.23984,0.05752,0,1,0,0,0,0,0,1,5,req
+10,0.0035,0.7912,0.16666,0.21852,0.0584,0.00948,0.83191,0.08026,0.17638,0.03111,0,0,0,0,0,0,0,1,5,req
+11,0.00225,0.76395,0.14439,0.21975,0.0589,0.00823,0.81103,0.07211,0.17701,0.03133,0,0,0,0,0,0,0,1,5,req
+12,0.00418,0.76395,0.09878,0.18543,0.04558,0.01015,0.81103,0.05541,0.15926,0.02536,0,0,0,0,0,0,0,1,5,req
+13,0.06398,0.06648,0.09765,0.01474,0.00022,0.06959,0.27638,0.055,0.07097,0.00504,0,0,0,0,0,0,0,1,8,req
